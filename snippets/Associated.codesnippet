@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Associated</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (&lt;#type#&gt;)&lt;#propertyName#&gt; {
+    return objc_getAssociatedObject(self, _cmd);
+}
+
+- (void)set&lt;#propertyName#&gt;:(&lt;#type#&gt;)object
+{
+    objc_setAssociatedObject(self, @selector(&lt;#propertyName#&gt;), object, OBJC_ASSOCIATION_);
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>368D9458-3546-49E2-8CD3-5F7AA073268D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Associated object for propert</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Associated</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
